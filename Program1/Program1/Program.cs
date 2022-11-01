@@ -13,8 +13,12 @@ namespace Program1
             string name = Console.ReadLine();
             // Приветствие пользователя по имени.
             Console.WriteLine("Привет, " + name);
+            // your look
+            int m;
+            m = 100;
+            Console.WriteLine("Вы выглядите на все " + m );
             // Ожидание реакции пользователя.
-            Console.WriteLine("Нажмите <Enter> для выхода...");
+            Console.WriteLine("Нажмите <Enter>\nдля выхода...");
             Console.Read();
         }
     }
